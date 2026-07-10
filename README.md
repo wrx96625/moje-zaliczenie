@@ -1,6 +1,6 @@
 # Simple Flask App
 
-[![CircleCI](https://circleci.com/gh/wrx96625/moje-zaliczenie/tree/main.svg?style=svg)](https://circleci.com/gh/wrx96625/moje-zaliczenie/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/WLVRvgBXE3LUpFHtncnMLL/Bx8Sfq5aePC9YoMqZcs3v4/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/WLVRvgBXE3LUpFHtncnMLL/Bx8Sfq5aePC9YoMqZcs3v4/tree/main)
 
 ## Autor projektu
 - **Imię i Nazwisko:** Kamil Trojanowski
