@@ -1,5 +1,11 @@
 # Simple Flask App
 
+[![CircleCI](https://circleci.com/gh/wrx96625/moje-zaliczenie/tree/main.svg?style=svg)](https://circleci.com/gh/wrx96625/moje-zaliczenie/tree/main)
+
+## Autor projektu
+- **Imię i Nazwisko:** Kamil Trojanowski
+- **Repozytorium:** moje-zaliczenie
+
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
@@ -51,11 +57,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ source .venv/Source/activate
   ```
 
-- Integracja z TravisCI:
+- Integracja z CircleCI:
 
-  ```
-  # miejsce na twoje notatki
-  ```
+  Projekt został pomyślnie zintegrowany z platformą CircleCI. Każdy commit uruchamia automatyczny potok budowania, który weryfikuje składnię (linter), uruchamia testy jednostkowe, a następnie buduje obraz kontenera i wysyła go na DockerHub.
 
 # Pomocnicze
 
@@ -69,16 +73,16 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   ```
   $ yum remove docker \
-        docker-common \
-        container-selinux \
-        docker-selinux \
-        docker-engine
+          docker-common \
+          container-selinux \
+          docker-selinux \
+          docker-engine
 
   $ yum install -y yum-utils
 
   $ yum-config-manager \
-      --add-repo \
-      https://download.docker.com/linux/centos/docker-ce.repo
+        --add-repo \
+        [https://download.docker.com/linux/centos/docker-ce.repo](https://download.docker.com/linux/centos/docker-ce.repo)
 
   $ yum makecache fast
   $ yum install -y docker-ce
